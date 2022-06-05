@@ -165,7 +165,7 @@ span {
 
 .estatutos {
   font-family: "Poppins", sans-serif;
-  background-image: url("/public/estatutos.jpg");
+  background-image: url("../static_v/public/estatutos.jpg");
   background-size: cover;
   background-position: center;
   color: white;
@@ -176,7 +176,7 @@ span {
 
 .junta {
   font-family: "Poppins", sans-serif;
-  background-image: url("/public/junta.jpg");
+  background-image: url("./public/junta.jpg");
   background-size: cover;
   background-position: center;
   color: white;
