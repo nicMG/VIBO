@@ -432,3 +432,7 @@ footer img {
   font-size: 20px;
   font-weight: 200;
 }
+
+#Container .mix {
+  display: block;
+}
