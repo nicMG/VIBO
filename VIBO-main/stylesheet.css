@@ -1,0 +1,712 @@
+/* Nav */
+
+.nav {
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 20px; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-img {
+  max-height: 4vh;
+}
+
+.link {
+  text-decoration: none;
+  margin: 0 10px;
+  color: black;
+  font-weight: bold;
+  padding: 0;
+}
+
+/* Main */
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color: black;
+  height: 1px;
+  opacity: 0.25;
+}
+
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 10px 7vw;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.imgContainer {
+  position: relative;
+  /* margin-bottom: -10px; */
+}
+
+.overlay {
+  position: absolute;
+}
+
+.texto-foto {
+  color: white;
+  position: absolute;
+}
+
+.mainbody {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100%;
+}
+
+.main-main {
+  display: flex;
+  margin-bottom: 0vh;
+  /* margin: 1vh 10vw; */
+  flex-direction: column;
+}
+
+.main-main img {
+  image-resolution: from-image;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 6rem;
+}
+
+.main-text {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-text h3 {
+  margin-top: -4.5rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 2rem;
+  text-align: left;
+  font-weight: 400;
+}
+
+span {
+  font-size: 20px;
+  color: #0b5350;
+}
+
+.main-text ul > li {
+  text-align: left;
+  margin: 0.75rem;
+  font-size: medium;
+  font-weight: 400;
+}
+
+.about-main {
+  margin-top: 15rem;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.socio-button {
+  height: 50px;
+  width: 150px;
+  margin-top: 0.5em;
+  align-self: flex-end;
+  /* border: 2px solid black; */
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #0b5350;
+}
+
+.socio-button-inside {
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.header img {
+  height: 25vh;
+}
+
+.about-cards-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.about-card {
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 30vh;
+  width: 26vw;
+  margin: 10px;
+  /*border: black 3px solid;*/
+}
+
+.about-link {
+  text-decoration: none;
+}
+
+.estatutos {
+  font-family: "Poppins", sans-serif;
+  background-image: url("https://res.cloudinary.com/dlccskpp5/image/upload/v1654424506/estatutos_vnfnzl.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-repeat: no-repeat;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.junta {
+  font-family: "Poppins", sans-serif;
+  background-image: url("https://res.cloudinary.com/dlccskpp5/image/upload/v1654424491/junta_elpeoz.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-repeat: no-repeat;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.asociados {
+  font-family: "Poppins", sans-serif;
+  background-image: url("https://res.cloudinary.com/dlccskpp5/image/upload/v1654424518/asociados_yuxp8z.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.asociados-main {
+  margin-top: 15rem;
+  color: #0b5350;
+}
+.asociados-main h3 {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 7.5rem;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.asociados-name img {
+  /* border: #0b5350 1px solid; */
+  width: 20vw;
+  height: 20vh;
+  margin: 1rem;
+  margin-bottom: 10rem;
+}
+
+.objetivos {
+  color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: black 4px solid;
+  background-image: url("http://2.bp.blogspot.com/-JRjd1cIWE0k/UE4k8lDMbrI/AAAAAAAAAXA/XHBBh1Fi2rY/s1600/gato+gordo.jpg");
+  background-size: cover;
+
+  width: 50vw;
+  height: 100%;
+}
+
+.objetivos ul {
+  margin: 15px;
+  border: yellow 2px solid;
+  padding: 0;
+}
+
+.left {
+  width: 50vw;
+}
+
+.top-buttons {
+  display: flex;
+  max-height: 90px;
+}
+
+.button {
+  background-color: grey;
+  padding: 10px;
+  max-height: 90px;
+  margin: 0px 15px;
+}
+
+.grid {
+  height: 75vh;
+  margin: 10px;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.grid-center {
+  background-color: violet;
+  grid-column: 2 / 4;
+}
+
+.grid-sides {
+  grid-column: span 2;
+}
+
+.grid .card {
+  /* background-color: salmon; */
+
+  height: 100%;
+}
+
+/* .mapa-ibias {
+  width: 30vw;
+} */
+
+footer {
+  margin-left: -7vw;
+  margin-right: -7vw;
+  margin-bottom: -10px;
+  width: 100;
+  margin: none;
+  background-color: #0b5350;
+  height: 7.5vh;
+}
+
+footer img {
+  max-height: 100%;
+}
+
+/* Viña */
+
+.vina-all {
+  margin-top: 25rem;
+}
+
+.vina-all > h1 {
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 15rem;
+}
+
+#La-viña {
+  color: #0b5350;
+}
+
+.vina-item {
+  /* border: black 1px solid; */
+  height: 35vh;
+  margin: 15px;
+  margin-bottom: 17rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.vina-item h1 {
+  font-size: 30px;
+}
+
+.vina-item img {
+  /* border-radius: 15px; */
+  margin: 15px;
+  width: auto;
+  height: 100%;
+}
+
+.uvas {
+  /* background-color: red; */
+  display: flex;
+  margin-top: 45px;
+}
+.uvas img {
+  height: 35vh;
+  max-width: 25vw;
+  object-fit: cover;
+  margin: 10px 0.5vw;
+}
+
+#foto-concejo {
+  margin-top: 50px;
+}
+
+#foto-viña {
+  margin-top: 40px;
+}
+
+#foto-vinos {
+  margin-top: 40px;
+}
+
+#foto-emparrados {
+  margin-top: 30px;
+}
+
+.vina-box {
+  /* border: red 1px solid; */
+  height: 35vh;
+  margin: 0px 25px;
+  /* border: steelblue 2px solid; */
+  display: flex;
+  overflow: visible;
+  max-height: 20vh;
+  flex-direction: column;
+}
+
+.vina-box h1 {
+  color: #0b5350;
+}
+
+.vina-box p {
+  align-self: center;
+  text-align: justify;
+  font-size: 20px;
+  height: 100%;
+}
+
+/* Feria */
+
+.feria-main {
+  background-color: #0b5350;
+  color: #f7edb7;
+  margin: 10px;
+  /* border: black 2px solid; */
+  display: flex;
+  padding: 5rem;
+  margin-bottom: 10vh;
+}
+
+.feria-box > h1 {
+  color: #d15f54;
+}
+
+.feria-main img {
+  width: 25vw;
+  /* border: black 0.5vw solid; */
+}
+
+.feria-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.feria-box strong {
+  color: #d15f54;
+}
+
+/* .feria-media {
+  display: flex;
+  justify-content: space-around;
+} */
+
+/* .feria-media div {
+  border: black 2px solid;
+} */
+
+/* Contacto */
+
+.junta-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.junta-box {
+  background-color: #0b5350;
+  margin-top: 5vh;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.junta-names {
+  /* margin-left: 25vw; */
+  color: #f7edb7;
+  padding: 5vh 10vh 2vw 2vw;
+}
+
+.junta-names h1 {
+  color: #0b5350;
+  font-weight: bold;
+}
+
+.junta-contacto {
+  margin-top: 10vh;
+  text-align: left;
+}
+
+.junta-contacto h1 {
+  text-decoration: underline;
+  color: #0b5350;
+}
+
+.junta-contacto ul > li {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+#Container .mix {
+  display: block;
+}
+
+/* Movil */
+
+@media (max-width: 1000px) {
+  .junta-box {
+    background-color: #d15f54;
+  }
+
+  .junta-contacto h1 {
+    text-decoration: none;
+  }
+
+  .about-cards-div {
+    flex-direction: column;
+    margin-top: 900px;
+  }
+
+  .about-card {
+    /* color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 25vh;
+    width: auto;
+    margin: 0;
+    margin-bottom: 20px;
+    /*border: black 3px solid;*/
+  }
+  .overlay {
+    position: absolute;
+    width: 100px;
+  }
+  .vina-item img {
+    width: 100%;
+    display: none;
+  }
+  .vina-all {
+    margin-top: 1300px;
+  }
+  .vina-item {
+    margin-top: 3rem;
+    margin-left: 0px;
+    margin-left: 0px;
+  }
+
+  .vina-all h1 {
+    margin-bottom: 0;
+  }
+
+  .vina-box {
+    padding: 0;
+    margin: 0;
+  }
+
+  .vina-box p {
+    height: auto;
+    width: 100%;
+  }
+  #concejo {
+    flex-direction: column-reverse;
+  }
+  #concejo h1 {
+    background-image: url("https://res.cloudinary.com/dlccskpp5/image/upload/v1650793888/RIO_IBIAS_mtioi1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #emparrados {
+    margin-top: 900px;
+    flex-direction: column-reverse;
+  }
+
+  #emparrados h1 {
+    background-image: url("https://res.cloudinary.com/dlccskpp5/image/upload/v1650793888/Emparrado-en-Seroiro-1_jyiels.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: white;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;
+  }
+
+  #historia {
+    margin-top: 900px;
+    flex-direction: column;
+  }
+
+  #historia h1 {
+    background-image: url("https://res.cloudinary.com/dlccskpp5/image/upload/v1650793890/EL_TRIGAL_hloyls.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* background-repeat: no-repeat; */
+    color: white;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #uvas {
+    margin-top: 900px;
+    flex-direction: column;
+  }
+
+  #uvas h1 {
+    background-image: url("https://res.cloudinary.com/dlccskpp5/image/upload/v1650793889/UVAS_MADURAS_2_igtj9y.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: white;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #vinos {
+    margin-top: 600px;
+    flex-direction: column;
+  }
+
+  #vinos h1 {
+    background-image: url("https://res.cloudinary.com/dlccskpp5/image/upload/v1650793423/BOTELLAS_BODEGA_MAS_saig41.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: white;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #Feria {
+    background-image: url("https://res.cloudinary.com/dlccskpp5/image/upload/v1650793888/FIESTA_DEL_VINO_wmiypi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20vh;
+    color: black;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .main-text ul > li {
+    margin-left: 0;
+  }
+
+  .main-text {
+    margin-bottom: 10rem;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .feria-main {
+    padding: 1rem;
+    text-align: justify;
+    margin: 0;
+    margin-top: 10rem;
+  }
+
+  .feria-main img {
+    display: none;
+  }
+
+  .asociados-main {
+    margin-top: 3rem;
+  }
+
+  .asociados-main h3 {
+    font-size: 25px;
+    margin-bottom: 5rem;
+  }
+
+  .asociados-name img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    /* margin: 1rem; */
+    /* margin-bottom: 10remç; */
+  }
+
+  .junta-box {
+    background-color: #0b5350;
+    margin-top: 0;
+    text-align: left;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  .junta-names {
+    background-color: #d15f54;
+    padding: 0;
+  }
+
+  .junta-main h1 {
+    margin-left: 10px;
+  }
+
+  .junta-main {
+    margin-right: 0px;
+  }
+
+  .junta-contacto ul > li {
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 1rem;
+    margin-left: 0;
+  }
+
+  .feria-main {
+    margin-bottom: 60px;
+  }
+}
+
+.nuevo {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nuevo div {
+  border: 1px solid black;
+  background-color: #d15f54;
+  display: flex;
+  flex-direction: column;
+}
+
+.nuevo h1 {
+  border: 1px solid red;
+}
